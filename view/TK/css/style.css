@@ -70,6 +70,16 @@ body {
 	font-size: 16px;
 }
 .nav_btn .bye_btn{
+	color: #1F98EA;
+	background: #fff;
+	font-size: 16px;
+	width: 120px;
+	height: 40px;
+	line-height: 40px;
+	text-align: center;
+	border: 1px solid #1f98ea;
+}
+.nav_btn .bye_btn:hover{
 	color: #fff;
 	background: #1F98EA;
 	font-size: 16px;
@@ -78,6 +88,7 @@ body {
 	line-height: 40px;
 	text-align: center;
 }
+
 .nav_btn .login_btn{
 	background: url(../icons/login.png) no-repeat center/contain;
 	width: 31px;
@@ -104,6 +115,9 @@ body {
 .nav_btn .language_btn .slide_box span{
 	display: block;
 	color: #000;
+}
+.nav_btn .language_btn .slide_box span:hover{
+	color: #1F98EA;
 }
 .nav_btn .language_btn .slide_box:after{
 	width: 0;
@@ -187,9 +201,11 @@ footer .share_box a{
 	right: 9%;
 	bottom: 15%;
 }
+
 .product .btns button{
 	background: #fff;
 	color: #1F98EA;
+	border: 1px solid #fff;
 	font-weight: 600;
 	width: 120px;
 	height: 35px;
@@ -198,6 +214,13 @@ footer .share_box a{
 	font-size: 18px;
 	margin-right: 40px;
 }
+
+.product .btns button:hover{
+	background: #1F98EA;
+	color:  #fff;
+	border: 1px solid #1F98EA;
+}
+
 .product .btns a{
 	color: #fff;
 	font-size: 18px;
@@ -417,4 +440,7 @@ footer .share_box a{
 	.shouhou .block2 {
 	    padding-bottom: 20px;
 	}
+}
+.service_item:hover {
+	box-shadow: 0 5px 12px rgba(0, 0, 0, .1);
 }
