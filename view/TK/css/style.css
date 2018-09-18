@@ -1,0 +1,420 @@
+/*public*/
+.fz_0{
+	font-size: 0;
+}
+.fz_41{
+	font-size: 41px;
+}
+.dis_ib{
+	display: inline-block;
+}
+.ver_m{
+	vertical-align: middle;
+}
+.pos_r{
+	position: relative;
+}
+.padd_0{
+	padding-left: 0;
+	padding-right: 0;
+}
+.margin_0{
+	margin-left: 0;
+	margin-right: 0;
+}
+a:hover{
+	text-decoration: none;
+}
+.pub_tit{
+	line-height: 90px;
+}
+/*nav*/
+body {
+ 	padding-top: 81px;
+}
+.navbar{
+	margin-bottom: 0;
+	box-shadow: 0 3px 3px 0px #E2E2E2;
+  background: #fff;
+}
+.navbar-brand{
+	height: 81px;
+}
+.nav>li>a{
+	color: #000000;
+	font-size: 16px;
+}
+.navbar-nav>li>a{
+	line-height: 51px;
+}
+.navbar-toggle{
+	padding: 14px 10px;
+}
+.navbar-toggle .icon-bar{
+	background-color: #333;
+}
+#navbar{
+	background: #fff;	
+}
+.navbar-nav{
+	margin: 0 -15px 0 40px;
+}
+.navbar .container{
+	position: relative;
+}
+.nav_btn{
+	float: right;
+	line-height: 81px;
+}
+.nav_btn a{
+	font-size: 16px;
+}
+.nav_btn .bye_btn{
+	color: #fff;
+	background: #1F98EA;
+	font-size: 16px;
+	width: 120px;
+	height: 40px;
+	line-height: 40px;
+	text-align: center;
+}
+.nav_btn .login_btn{
+	background: url(../icons/login.png) no-repeat center/contain;
+	width: 31px;
+	height: 31px;
+}
+.nav_btn .language_btn{
+	background: url(../icons/language.png) no-repeat center/contain;
+	width: 30px;
+	height: 30px;
+	position: relative;
+}
+.nav_btn .language_btn .slide_box{
+	position: absolute;
+	top: 71px;
+	right: 0;
+	background: #fff;
+	list-style: none;
+	line-height: 25px;
+	width: 110px;
+	text-align: center;
+	padding: 7px 0;
+	display: none;
+}
+.nav_btn .language_btn .slide_box span{
+	display: block;
+	color: #000;
+}
+.nav_btn .language_btn .slide_box:after{
+	width: 0;
+	border-left: 8px solid transparent;
+	border-right: 8px solid transparent;
+	border-bottom: 8px solid #fff;
+	content: '';
+	position: absolute;
+	top: -8px;
+	right: 10px;
+}
+.nav_btn a{
+	margin-left: 65px;
+}
+.navbar-collapse.in{
+	overflow-y: visible;
+}
+/*footer*/
+footer{
+	padding: 160px 0 160px;
+	background: #051223;
+}
+footer dl{
+	display: inline-block;
+	vertical-align: top;
+	color: #A2A5A9;
+	font-size: 13px;
+	height: 200px;
+}
+footer dl a{
+	color: #A2A5A9;
+}
+footer dl dt{
+	margin-bottom: 25px;
+}
+footer dl dd{
+	line-height: 40px;
+}
+footer .addition{
+	color: #fff;
+	text-align: right;
+	font-size: 13px;
+}
+footer .email_box{
+	margin: 30px 0;
+}
+footer .email_box input::placeholder{
+	color: #fff;
+}
+footer .email_box input{
+	background: #000;
+	color: #fff;
+	border: 3px solid #1F98EA;
+	line-height: 30px;
+	border-radius: 3px 0 0 3px;
+	padding: 0 7px;
+	display: inline-block;
+	vertical-align: middle;
+	width: 205px;
+}
+footer .email_box button{
+	height: 36px;
+	width: 36px;
+	border: 0 none;
+	display: inline-block;
+	vertical-align: middle;
+	border-radius: 0 3px 3px 0;
+	background:#1F98EA url(../icons/arrow_right.png) no-repeat center;
+}
+footer .share_box a{
+	display: inline-block;
+	vertical-align: middle;
+	margin: 0 9px;
+}
+/*product*/
+.product .block2{
+	padding-bottom: 75px;
+}
+.product .btns{
+	position: absolute;
+	right: 9%;
+	bottom: 15%;
+}
+.product .btns button{
+	background: #fff;
+	color: #1F98EA;
+	font-weight: 600;
+	width: 120px;
+	height: 35px;
+	border-radius: 35px;
+	border: 0 none;
+	font-size: 18px;
+	margin-right: 40px;
+}
+.product .btns a{
+	color: #fff;
+	font-size: 18px;
+	border-bottom: 1px solid #fff;
+	line-height: 34px;
+  display: inline-block;
+}
+.product .btns a i{
+	background: url(../icons/toright.png) no-repeat center/contain;
+	width: 9px;
+	height: 18px;
+	display: inline-block;
+	vertical-align: middle;
+ 	margin-left: 20px;
+}
+.product .block2_con .btns{
+	right: 28%;
+    bottom: 34%;
+}
+.shequ .block1_con .text{
+	background: #38abf9;
+	color: #fff;
+	padding: 15px 0 5px;
+}
+.shequ .block1_con h3{
+	margin: 0;
+	font-size: 33px;
+	margin-bottom: 20px;
+}
+.shequ .block1_con .text p{
+	font-size: 20px;
+}
+.shequ .block2{
+	padding-bottom: 100px;
+}
+.shouhou .block1{
+	margin: 30px 0;
+}
+.shouhou .block2{
+	padding-bottom: 40px;
+}
+.shouhou dl{
+	text-align: center;
+	background: #f5f5f5;
+	padding: 140px 0 70px;
+	cursor: pointer;
+}
+.shouhou dl h4{
+	font-size: 33px;
+	margin: 50px 0 40px;
+}
+.shouhou dl p{
+	font-size: 20px;
+}
+.shouhou dl .icon2{
+	display: none;
+}
+.shouhou dl:hover h4{
+	color: #1f98ea;
+}
+.shouhou dl:hover .icon1{
+	display: none;
+}
+.shouhou dl:hover .icon2{
+	display: inline-block;
+}
+.banner_text{
+	position: absolute;
+	width: 100%;
+	top: 50px;
+	left: 0;
+	text-align: center;
+}
+.banner_text h4{
+	color: #fff;
+	font-size: 38px;
+}
+.banner_text .input_box{
+	width: 265px;
+	height: 30px;
+	line-height: 30px;
+	display: inline-block;
+	background: #fff;
+	border-radius: 30px;
+	position: relative;
+	margin-top: 10px;
+	padding: 0 15px;
+}
+.banner_text .input_box input{
+	width: 100%;
+	height: 100%;
+	border: 0 none;
+	border-radius: 30px;
+}
+.banner_text .input_box button{
+	position: absolute;
+	right: 10px;
+	top: 4px;
+	background: url(../icons/search.png) no-repeat center/contain;
+	width: 22px;
+	height: 22px;
+	border: 0 none;
+}
+@media only screen and (max-width: 1200px){
+	footer{
+		padding: 50px 0;
+	}
+	footer .logo{
+		text-align: center;
+		margin-bottom: 50px;
+	}
+	.pub_tit{
+		font-size: 30px;
+	}
+	.shequ .block1_con h3{
+		font-size: 23px;
+		margin-bottom: 10px;
+	}
+	.shequ .block1_con .text p{
+		font-size: 15px;
+	}
+	.shequ .block2{
+		padding-bottom: 50px;
+	}
+}
+@media only screen and (min-width: 767px) and (max-width: 1200px) {
+	.product .btns{
+		right: 3%;
+    	bottom: 17%;
+	}
+	.product .block2_con .btns{
+		right: 15%;
+    	bottom: 22%;
+	}
+	.shouhou dl {
+	    padding: 50px 0 30px;
+	}
+}
+@media only screen and (max-width: 767px) {
+	body{
+		padding-top: 61px;
+	}
+	.nav_btn a{
+		margin-left: 25px;
+	}
+	.navbar-brand{
+		padding: 5px 15px;
+		height: 51px;
+	}
+	#navbar{
+    margin: 0 -30px;
+	}
+	.navbar-nav {
+    margin: 0 -15px;
+    padding: 0 15px;
+	}
+	.nav_btn{
+		width: 100%;
+    text-align: right;
+    background: #F3F3F3;
+    padding: 0 15px;
+	}
+	.pub_tit{
+		font-size: 20px;
+    	line-height: 40px;
+	}
+	.product .block2{
+		padding-bottom: 30px;
+	}
+	.product .btns,.product .block2_con .btns{
+		right: 5%;
+    	bottom: 10%;
+	}
+	.product .btns button{
+		width: 75px;
+    line-height: 25px;
+    font-size: 12px;
+    height: 25px;
+    margin-right: 10px;
+	}
+	.product .btns a{
+		line-height: 25px;
+    font-size: 12px;
+	}
+	.product .btns a i{
+		margin-left: 10px;
+	}
+	.shequ .block1_con .item,.shequ .block2_con .item{
+		margin-bottom: 20px;
+	}
+	.shequ .block1_con h3{
+		font-size: 20px;
+		margin-bottom: 10px;
+	}
+	.shequ .block1_con .text p{
+		font-size: 12px;
+	}
+	.shequ .block2{
+		padding-bottom: 30px;
+	}
+	.banner_text{
+		top: 10px;
+		left: 0;
+	}
+	.banner_text h4{
+		font-size: 14px;
+    	margin: 0;
+	}
+	.banner_text .input_box button{
+		width: 16px;
+		height: 16px;
+		top: 7px;
+	}
+	.shouhou dl{
+		padding: 20px 0 10px;
+	}
+	.shouhou .block2 {
+	    padding-bottom: 20px;
+	}
+}
