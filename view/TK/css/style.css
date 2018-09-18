@@ -1,4 +1,25 @@
 /*public*/
+.font12{
+	font-size: 12px;
+}
+.font14{
+	font-size: 14px;
+}
+.ml5{
+	margin-left: 5%;
+}
+.ml10{
+	margin-left: 10%;
+}
+.width20{
+	width: 20%;
+}
+.width40{
+	width: 40%;
+}
+.width60{
+	width: 60%;
+}
 .fz_0{
 	font-size: 0;
 }
@@ -7,6 +28,9 @@
 }
 .dis_ib{
 	display: inline-block;
+}
+.ver_t{
+	vertical-align: top;
 }
 .ver_m{
 	vertical-align: middle;
@@ -30,12 +54,12 @@ a:hover{
 }
 /*nav*/
 body {
- 	padding-top: 81px;
+	padding-top: 81px;
 }
 .navbar{
 	margin-bottom: 0;
 	box-shadow: 0 3px 3px 0px #E2E2E2;
-  background: #fff;
+	background: #fff;
 }
 .navbar-brand{
 	height: 81px;
@@ -54,7 +78,7 @@ body {
 	background-color: #333;
 }
 #navbar{
-	background: #fff;	
+	background: #fff;
 }
 .navbar-nav{
 	margin: 0 -15px 0 40px;
@@ -70,16 +94,6 @@ body {
 	font-size: 16px;
 }
 .nav_btn .bye_btn{
-	color: #1F98EA;
-	background: #fff;
-	font-size: 16px;
-	width: 120px;
-	height: 40px;
-	line-height: 40px;
-	text-align: center;
-	border: 1px solid #1f98ea;
-}
-.nav_btn .bye_btn:hover{
 	color: #fff;
 	background: #1F98EA;
 	font-size: 16px;
@@ -88,7 +102,6 @@ body {
 	line-height: 40px;
 	text-align: center;
 }
-
 .nav_btn .login_btn{
 	background: url(../icons/login.png) no-repeat center/contain;
 	width: 31px;
@@ -115,9 +128,6 @@ body {
 .nav_btn .language_btn .slide_box span{
 	display: block;
 	color: #000;
-}
-.nav_btn .language_btn .slide_box span:hover{
-	color: #1F98EA;
 }
 .nav_btn .language_btn .slide_box:after{
 	width: 0;
@@ -201,11 +211,9 @@ footer .share_box a{
 	right: 9%;
 	bottom: 15%;
 }
-
 .product .btns button{
 	background: #fff;
 	color: #1F98EA;
-	border: 1px solid #fff;
 	font-weight: 600;
 	width: 120px;
 	height: 35px;
@@ -214,19 +222,12 @@ footer .share_box a{
 	font-size: 18px;
 	margin-right: 40px;
 }
-
-.product .btns button:hover{
-	background: #1F98EA;
-	color:  #fff;
-	border: 1px solid #1F98EA;
-}
-
 .product .btns a{
 	color: #fff;
 	font-size: 18px;
 	border-bottom: 1px solid #fff;
 	line-height: 34px;
-  display: inline-block;
+	display: inline-block;
 }
 .product .btns a i{
 	background: url(../icons/toright.png) no-repeat center/contain;
@@ -234,11 +235,11 @@ footer .share_box a{
 	height: 18px;
 	display: inline-block;
 	vertical-align: middle;
- 	margin-left: 20px;
+	margin-left: 20px;
 }
 .product .block2_con .btns{
 	right: 28%;
-    bottom: 34%;
+	bottom: 34%;
 }
 .shequ .block1_con .text{
 	background: #38abf9;
@@ -324,6 +325,94 @@ footer .share_box a{
 	height: 22px;
 	border: 0 none;
 }
+/*授权经销商*/
+.form-group {
+	margin-bottom: 20px;
+}
+.sqjxs h1{
+	font-size: 16px;
+	margin: 30px 0 50px;
+}
+.sqjxs .prompt{
+	font-size: 12px;
+}
+.sqjxs .tab_tit,.sqjxs .pub_tit2{
+	font-size: 16px;
+	margin: 30px 0 20px;
+}
+.sqjxs .tab_tit span{
+	cursor: pointer;
+}
+.sqjxs .tab_tit span.active,.sqjxs .tab_tit span:hover{
+	color: #1f98ea
+}
+.sqjxs input.form-control{
+	border: 0 none;
+	border-bottom: 1px solid #ccc;
+	box-shadow: none;
+	border-radius: 0;
+	font-size: 13px;
+	padding: 0;
+	margin: 0;
+	line-height: 25px;
+	height: 25px;
+}
+.sqjxs input::placeholder,.sqjxs select{
+	color: #ccc;
+	font-size: 12px;
+}
+.sqjxs .btn{
+	float: right;
+	width: 220px;
+	height: 48px;
+	background: #fff;
+	text-align: center;
+	line-height: 48px;
+	padding: 0;
+	font-size: 25px;
+	border: 1px solid #bfbfbf;
+	margin: 30px 0 50px;
+	color: #656565;
+}
+.sqjxs .btn.active,.sqjxs .btn:hover{
+	border: 0 none;
+	color: #fff;
+	background: #1f98ea;
+	margin-left: 30px;
+	box-shadow: none;
+}
+.sqjxs .btn.active:hover{
+	background: #0789e1
+}
+.pub_tit3{
+	border-bottom: 1px solid #323232;
+	margin-bottom:20px;
+	font-size: 12px;
+}
+.checkbox+.checkbox, .radio+.radio{
+	margin-top: 10px;
+}
+.form-control[disabled], .form-control[readonly], fieldset[disabled] .form-control{
+	background: #fff;
+}
+.upload_box{
+	border: 1px solid #bfbfbf;
+	width: 68px;
+	height: 23px;
+	text-align: center;
+	margin-left: 10px;
+	position: relative;
+	line-height: 23px;
+	font-size: 12px;
+}
+.upload_box input[type="file"]{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	opacity: 0;
+}
 @media only screen and (max-width: 1200px){
 	footer{
 		padding: 50px 0;
@@ -349,14 +438,20 @@ footer .share_box a{
 @media only screen and (min-width: 767px) and (max-width: 1200px) {
 	.product .btns{
 		right: 3%;
-    	bottom: 17%;
+		bottom: 17%;
 	}
 	.product .block2_con .btns{
 		right: 15%;
-    	bottom: 22%;
+		bottom: 22%;
 	}
 	.shouhou dl {
-	    padding: 50px 0 30px;
+		padding: 50px 0 30px;
+	}
+	.sqjxs .btn {
+		width: 160px;
+		height: 40px;
+		line-height: 40px;
+		font-size: 20px;
 	}
 }
 @media only screen and (max-width: 767px) {
@@ -371,39 +466,39 @@ footer .share_box a{
 		height: 51px;
 	}
 	#navbar{
-    margin: 0 -30px;
+		margin: 0 -30px;
 	}
 	.navbar-nav {
-    margin: 0 -15px;
-    padding: 0 15px;
+		margin: 0 -15px;
+		padding: 0 15px;
 	}
 	.nav_btn{
 		width: 100%;
-    text-align: right;
-    background: #F3F3F3;
-    padding: 0 15px;
+		text-align: right;
+		background: #F3F3F3;
+		padding: 0 15px;
 	}
 	.pub_tit{
 		font-size: 20px;
-    	line-height: 40px;
+		line-height: 40px;
 	}
 	.product .block2{
 		padding-bottom: 30px;
 	}
 	.product .btns,.product .block2_con .btns{
 		right: 5%;
-    	bottom: 10%;
+		bottom: 10%;
 	}
 	.product .btns button{
 		width: 75px;
-    line-height: 25px;
-    font-size: 12px;
-    height: 25px;
-    margin-right: 10px;
+		line-height: 25px;
+		font-size: 12px;
+		height: 25px;
+		margin-right: 10px;
 	}
 	.product .btns a{
 		line-height: 25px;
-    font-size: 12px;
+		font-size: 12px;
 	}
 	.product .btns a i{
 		margin-left: 10px;
@@ -427,7 +522,7 @@ footer .share_box a{
 	}
 	.banner_text h4{
 		font-size: 14px;
-    	margin: 0;
+		margin: 0;
 	}
 	.banner_text .input_box button{
 		width: 16px;
@@ -438,9 +533,43 @@ footer .share_box a{
 		padding: 20px 0 10px;
 	}
 	.shouhou .block2 {
-	    padding-bottom: 20px;
+		padding-bottom: 20px;
+	}
+	.sqjxs select{
+		width: 40%;
+	}
+	.sqjxs .btn {
+		width: 120px;
+		height: 38px;
+		line-height: 38px;
+		font-size: 18px;
+		margin: 20px 0 30px;
+	}
+	.sqjxs .btn.active{
+		margin-left: 10px;
+	}
+	.sqjxs .checkbox_item2{
+		margin-left: 0;
 	}
 }
-.service_item:hover {
-	box-shadow: 0 5px 12px rgba(0, 0, 0, .1);
+.nav_btn .language_btn .slide_box span:hover{
+	color: #1F98EA;
+}
+.product .btns button{
+	background: #fff;
+	color: #1F98EA;
+	border: 1px solid #fff;
+	font-weight: 600;
+	width: 120px;
+	height: 35px;
+	border-radius: 35px;
+	border: 0 none;
+	font-size: 18px;
+	margin-right: 40px;
+}
+
+.product .btns button:hover{
+	background: #1F98EA;
+	color:  #fff;
+	border: 1px solid #1F98EA;
 }
