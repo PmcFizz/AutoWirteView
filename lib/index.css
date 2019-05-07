@@ -1,0 +1,9 @@
+body,html{
+  /* background-color: #678898; */
+}
+.container{
+  margin-top:20px;
+}
+.col-sm-2.control-label.text-left{
+  text-align: left
+}
