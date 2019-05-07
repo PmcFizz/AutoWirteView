@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+        content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>第二页</title>
+    <link href="./../lib/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
+    <link href="./../lib/index.css" rel="stylesheet" />
+</head>
+
+<body>
+    <div class="container bounceInLeft animated">
+        <form class="form-horizontal" style="margin:0 auto">
+            <div class="form-group">
+                <label for="driver" class="col-sm-1 col-sm-offset-3 control-label text-left">Driver:</label>
+                <div class="col-sm-8">
+                    <label class="checkbox-inline checkboxLabel"><input type="checkbox" id="inlineCheckbox1" value="option1">选项1</label>
+                    <label class="checkbox-inline checkboxLabel"><input type="checkbox" id="inlineCheckbox1" value="option1">超长选项选项选项2</label>
+                    <label class="checkbox-inline checkboxLabel"><input type="checkbox" id="inlineCheckbox1" value="option1">选项3</label>
+                    <label class="checkbox-inline checkboxLabel"><input type="checkbox" id="inlineCheckbox1" value="option1">选项4</label>
+                    <label class="checkbox-inline checkboxLabel"><input type="checkbox" id="inlineCheckbox1" value="option1">选项5</label>
+                    <label class="checkbox-inline checkboxLabel"><input type="checkbox" id="inlineCheckbox1" value="option1">选项6</label>
+                    <label class="checkbox-inline checkboxLabel"><input type="checkbox" id="inlineCheckbox1" value="option1">选项7</label>
+                    <label class="checkbox-inline checkboxLabel"><input type="checkbox" id="inlineCheckbox1" value="option1">选项8</label>
+                    <label class="checkbox-inline checkboxLabel"><input type="checkbox" id="inlineCheckbox1" value="option1">选项9</label>
+                    <label class="checkbox-inline checkboxLabel"><input type="checkbox" id="inlineCheckbox1" value="option1">选项10</label>
+                </div>
+            </div>
+
+            <div class="form-group" style="margin-top:200px">
+                <div class="col-sm-12 text-center" style="margin-top:20px">
+                    <button type="button" class="btn btn-info" onclick="toNewPage('./page1.html')"><span class="glyphicon glyphicon-chevron-left"></span>上一页</button>
+                    <button type="button" class="btn btn-primary" onclick="submitFormData()">确定</button>
+                    <button type="button" class="btn btn-info" onclick="toNewPage('./page3.html')">下一页<span class="glyphicon glyphicon-chevron-right"></span></button>
+                </div>
+            </div>
+
+            <!-- <div class="form-group" style="margin-top:200px">
+                <div class="col-sm-12 text-center">
+                    <button type="button" class="btn btn-info" style="margin-right:20px">上一页</button>
+                    <button type="button" class="btn btn-info">下一页</button>
+                </div>
+            </div> -->
+
+
+        </form>
+
+    </div>
+
+    <script src="./../lib/jquery.min.js"></script>
+    <script src="./../lib/bootstrap/js/bootstrap.min.js"></script>
+    <script>
+
+
+        // 点击确定
+        function submitFormData() {
+            var driver = $("#driver").val()
+            var url = $("#url").val()
+            var username = $("#username").val()
+            var password = $("#password").val()
+            var database = $("#database").val()
+            var hasError = false
+            if (!hasError) {
+                return
+            }
+        }
+
+        // 点击下一页
+        function toNewPage(link) {
+            location.href = link
+        }
+
+    </script>
+</body>
+
+</html>
