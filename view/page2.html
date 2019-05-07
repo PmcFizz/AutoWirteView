@@ -32,47 +32,18 @@
             <div class="form-group" style="margin-top:200px">
                 <div class="col-sm-12 text-center" style="margin-top:20px">
                     <button type="button" class="btn btn-info" onclick="toNewPage('./page1.html')"><span class="glyphicon glyphicon-chevron-left"></span>上一页</button>
-                    <button type="button" class="btn btn-primary" onclick="submitFormData()">确定</button>
+                    <button type="button" class="btn btn-primary" onclick="submitFormData()" style="margin:0 20px">确定</button>
                     <button type="button" class="btn btn-info" onclick="toNewPage('./page3.html')">下一页<span class="glyphicon glyphicon-chevron-right"></span></button>
                 </div>
             </div>
-
-            <!-- <div class="form-group" style="margin-top:200px">
-                <div class="col-sm-12 text-center">
-                    <button type="button" class="btn btn-info" style="margin-right:20px">上一页</button>
-                    <button type="button" class="btn btn-info">下一页</button>
-                </div>
-            </div> -->
-
-
         </form>
 
     </div>
 
     <script src="./../lib/jquery.min.js"></script>
     <script src="./../lib/bootstrap/js/bootstrap.min.js"></script>
-    <script>
+    <script src="./../lib/index.js"></script>
 
-
-        // 点击确定
-        function submitFormData() {
-            var driver = $("#driver").val()
-            var url = $("#url").val()
-            var username = $("#username").val()
-            var password = $("#password").val()
-            var database = $("#database").val()
-            var hasError = false
-            if (!hasError) {
-                return
-            }
-        }
-
-        // 点击下一页
-        function toNewPage(link) {
-            location.href = link
-        }
-
-    </script>
 </body>
 
 </html>
