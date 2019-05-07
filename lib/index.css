@@ -1,8 +1,9 @@
 body,html{
-  /* background-color: #678898; */
+  height: 100%;
 }
 .container{
-  margin-top:20px;
+  padding-top:20px;
+  height: 100%;
 }
 .col-sm-1.control-label.text-left{
   text-align: left
